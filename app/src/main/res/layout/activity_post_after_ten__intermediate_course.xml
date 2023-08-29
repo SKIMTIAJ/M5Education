@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.PostAfterTen_IntermediateCourse">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/AirtsRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Airts Course" />
+
+        <RadioButton
+            android:id="@+id/CommerceRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Commerce Course" />
+
+
+        <RadioButton
+            android:id="@+id/ScienceRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Science Course" />
+
+        <RadioButton
+            android:id="@+id/SearchRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Search Course" />
+
+    </RadioGroup>
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/Post_Airts_Edit_Course_Lay">
+
+            <EditText
+                android:id="@+id/Post_Airts_Edit_Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Airts Course"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"
+                android:layout_margin="30dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/Post_Commerce_Edit_Course_Lay">
+
+            <EditText
+                android:id="@+id/Post_Commerce_Edit_Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Commerce Course"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"
+                android:layout_margin="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/Post_Science_Edit_Course_Lay">
+
+            <EditText
+                android:id="@+id/Post_Science_Edit_Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Science Course"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"
+                android:layout_margin="30dp" />
+
+        </LinearLayout>
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:id="@+id/Post_Search_Edit_Course_Lay">
+
+             <EditText
+                 android:id="@+id/Post_Search_Edit_Course"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:hint="More Course Name"
+                 android:textSize="20sp"
+                 android:paddingLeft="30dp"
+                 android:layout_margin="30dp"/>
+
+         </LinearLayout>-->
+
+
+
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/Post_Simple_Submit_Course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="24sp"
+        android:layout_margin="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/buttonf"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Beauty And Cosmetology"
+        android:id="@+id/Beauty_And_Cosmetologyid"/>
+
+    <item android:title="Jewelry design"
+        android:id="@+id/Jewelry_designid"
+        />
+
+    <item android:title="Fashion design"
+        android:id="@+id/Fashion_designid"
+        />
+
+   <item android:title="Photography"
+       android:id="@+id/Photographyid"
+       />
+</menu>

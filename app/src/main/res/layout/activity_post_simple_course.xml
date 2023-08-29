@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.PostSimpleCourseActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/UnderGraduateRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UnderGraduate Course" />
+
+        <RadioButton
+            android:id="@+id/IntegratedRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Integrated Course" />
+
+
+        <RadioButton
+            android:id="@+id/PostGraduationRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PostGraduate Course" />
+
+        <RadioButton
+            android:id="@+id/MoreRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="More Course" />
+
+    </RadioGroup>
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/Post_UnderGraduate_Edit_Course_Lay">
+
+            <EditText
+                android:id="@+id/Post_UnderGraduate_Edit_Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Graduate Course Name"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"
+                android:layout_margin="30dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/Post_Integrated_Edit_Course_Lay">
+
+            <EditText
+                android:id="@+id/Post_Integrated_Edit_Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Integrated Course Name"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"
+                android:layout_margin="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/Post_PostGraduate_Edit_Course_Lay">
+
+            <EditText
+                android:id="@+id/Post_PostGraduate_Edit_Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PostGraduate Course Name"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"
+                android:layout_margin="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/Post_More_Edit_Course_Lay">
+
+            <EditText
+                android:id="@+id/Post_More_Edit_Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="More Course Name"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"
+                android:layout_margin="30dp"/>
+
+        </LinearLayout>
+
+
+
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/Post_Simple_Submit_Course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="24sp"
+        android:layout_margin="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/buttonf"/>
+
+</LinearLayout>

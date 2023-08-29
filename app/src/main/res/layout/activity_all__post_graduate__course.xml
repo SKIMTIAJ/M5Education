@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.All_PostGraduate_Course">
+
+    <LinearLayout
+        android:id="@+id/PostGraduateLayoutmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/PostGraduatecourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All PostGraduate "
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:textAlignment="center"
+            android:textColor="@color/ChooseQualifition"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/PostGraduatecoursecriteria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eligiblity criteria"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:paddingBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PostGraduateList">
+
+    </ListView>
+
+</LinearLayout>

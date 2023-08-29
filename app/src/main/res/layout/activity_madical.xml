@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ActivityBackgroundtrythird"
+    tools:context=".Activities.MadicalActivity">
+
+    <LinearLayout
+        android:id="@+id/Intermediate_gellery_ScrollView_for_medicalTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <!-- <ScrollView
+             android:id="@+id/Intermediate_gellery_ScrollView_for_medical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:visibility="visible">-->
+
+        <LinearLayout
+            android:id="@+id/AfterIntermediate_Medical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_weight="50"
+                android:id="@+id/AfterIntermediate_Medical_Head_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medical"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"/>
+
+
+            <TextView
+                android:id="@+id/AfterIntermediate_Medical_Degree_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M.B.B.S/M.D/m.s"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:textColor="@color/ChooseQualifition"/>
+
+            <TextView
+                android:id="@+id/AfterIntermediate_Medical_session"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                android:padding="2sp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:text=" 4 year" />
+
+
+            <TextView
+                android:id="@+id/AfterIntermediate_Medical_Eligiblity_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Only Eligible"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:textColor="@color/ChooseQualifition"/>
+
+            <TextView
+                android:id="@+id/AfterIntermediate_Medical_Eligiblity_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Eligible_For_Eng_4thyear_text"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                android:padding="20dp"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/MedicineLayouttest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Medicine"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#E5105E"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 year"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+                <ListView
+                    android:id="@+id/MedicalListone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/HealtLayouttest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Allied health service"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#E5105E"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2/3 year"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+                <ListView
+                    android:id="@+id/Health_serviceone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/PeramedicalLayouttest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Peramedical"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#E5105E"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 year"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+                <ListView
+                    android:id="@+id/PeramedicalListone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

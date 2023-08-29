@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:layout_margin="10dp"
+    tools:context=".Activities.ImageControl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College Image"
+            android:textSize="18sp"
+            android:textColor="@color/TitleColor"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/College_Image_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/College_Image_radiobtn_Hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hide"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:onClick="OnImgRadioBtnClick"/>
+
+            <RadioButton
+                android:id="@+id/College_Image_radiobtn_Show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:onClick="OnImgRadioBtnClick"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="School Image"
+            android:textSize="18sp"
+            android:textColor="@color/TitleColor"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/School_Image_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/School_Image_radiobtn_Hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hide"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:onClick="OnImgRadioBtnClick"/>
+
+            <RadioButton
+                android:id="@+id/School_Image_radiobtn_Show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:onClick="OnImgRadioBtnClick"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scholarship Image"
+            android:textSize="18sp"
+            android:textColor="@color/TitleColor"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/Scholarship_Image_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/Scholarship_Image_radiobtn_Hide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hide"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:onClick="OnImgRadioBtnClick"/>
+
+            <RadioButton
+                android:id="@+id/Scholarship_Image_radiobtn_Show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:onClick="OnImgRadioBtnClick"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bannerAtHomeid"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BannerAt_Home"
+            android:textSize="18sp"
+            android:textColor="@color/TitleColor"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:id="@+id/PostRecycleItem_to_home_IMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@color/ActivityBackgroundtrythird"
+    tools:context=".Activities.PeramedicalActivity">
+
+
+    <LinearLayout
+        android:id="@+id/mainperamedicallay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Peramedical_Main_Lay"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Peramedical_head_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peramedical"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/PeramedicalSessionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 year"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                android:textColor="@color/ChooseQualifition"/>
+
+            <TextView
+                android:id="@+id/PeramedicalEligiblityText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PeramedicalListLay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/PeramedicalListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/PeramedicaladView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8967101046628767/6548946655">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

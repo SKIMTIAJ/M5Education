@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ActivityBackgroundtrythird"
+    tools:context=".Activities.Degree">
+
+    <LinearLayout
+        android:id="@+id/Intermediate_gellery_ScrollView_for_degree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/AfterIntermediate_Degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_weight="50"
+                android:id="@+id/AfterIntermediate_Degree_head_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Degree"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"/>
+
+
+            <TextView
+                android:id="@+id/AfterIntermediate_Degree_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BE/B.Tech"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:textColor="@color/ChooseQualifition"/>
+
+            <TextView
+                android:id="@+id/AfterIntermediate_Degree_session"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                android:padding="2sp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:text=" 4 year" />
+
+
+            <TextView
+                android:id="@+id/AfterIntermediate_Degree_Eligibility_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Only Eligible"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:textColor="@color/ChooseQualifition"/>
+
+            <TextView
+                android:id="@+id/AfterIntermediate_Degree_Eligibility_head_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Eligible_For_Degree_3thyear_text"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                android:padding="20dp"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/BAListLay_under_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BA"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#E5105E"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 year"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+                <ListView
+                    android:id="@+id/BAList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BScListLay_under_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#E5105E"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 year"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+                <ListView
+                    android:id="@+id/BScList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BComListLay_under_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Com"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#E5105E"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 year"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+                <ListView
+                    android:id="@+id/BComList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/OtherDegreListLay_under_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Other Degree"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#E5105E"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+                <ListView
+                    android:id="@+id/OtherDegreList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DualDegreListLay_under_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dual Degree"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#E5105E"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 year"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+                <ListView
+                    android:id="@+id/DualDegreList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/ProfetionalMainScroll_under_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/ProfetionalListLay_under_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/ProfetionalListLay_under_frame_textFirst"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Professional Course"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:background="#E5105E"/>
+
+                    <TextView
+                        android:id="@+id/ProfetionalListLay_under_frame_textsecond"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:textSize="18sp"
+                        android:textAlignment="center"/>
+                    <Button
+                        android:id="@+id/ProfetionalListLay_under_frame_BtnText"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CPT"
+                        android:height="30dp"
+                        android:width="150dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/buttonf"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:id="@+id/ProfetionalListLay_under_frame_CALay"
+                        android:layout_margin="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="About"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_margin="10dp"
+                            android:padding="8dp"
+                            android:textColor="@color/TitleColor"/>
+
+                        <TextView
+                            android:id="@+id/About_CPT_ExampDetailsid"
+                            android:paddingVertical="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/CPT_About_string"
+                            android:textSize="15sp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="10dp"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#000"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Eligiblity"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/TitleColor"
+                            android:layout_margin="10dp"
+                            android:padding="8dp"/>
+
+                        <TextView
+                            android:id="@+id/About_CPT_EligiblityDetailsid"
+                            android:paddingVertical="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/CPT_About_Eligiblity_String"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="10dp"
+                            android:textStyle="italic"
+                            android:textColor="@color/colorPrimary"/>
+
+                        <View
+                            android:layout_width="300dp"
+                            android:layout_height="1dp"
+                            android:background="#000"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Application Mode"
+                            android:textSize="18sp"
+                            android:layout_margin="10dp"
+                            android:padding="8dp"
+                            android:textColor="@color/TitleColor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/About_CPT_AplicationmodeDetailsid"
+                            android:paddingVertical="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Online Mode "
+                            android:textSize="18sp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="italic" />
+
+                        <View
+                            android:layout_width="300dp"
+                            android:layout_height="1dp"
+                            android:background="#000"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Test Mode"
+                            android:textSize="18sp"
+                            android:layout_margin="10dp"
+                            android:padding="8dp"
+                            android:textColor="@color/TitleColor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/About_CPT_TestDetailsid"
+                            android:paddingVertical="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/CPT_About_TestMode_String"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="italic"/>
+
+                        <View
+                            android:layout_width="300dp"
+                            android:layout_height="1dp"
+                            android:background="#000"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Source"
+                            android:textSize="20sp"
+                            android:layout_margin="10dp"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/TitleColor"/>
+
+                        <TextView
+                            android:id="@+id/About_CPT_MoreDetailsid"
+                            android:paddingVertical="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="http://icaiexam.icai.org"
+                            android:autoLink="web"
+                            android:clickable="true"
+                            android:textSize="15sp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="10dp"
+                            android:textStyle="italic"
+                            android:textColor="@color/ChooseQualifition"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

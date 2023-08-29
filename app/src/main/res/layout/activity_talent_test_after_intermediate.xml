@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.TalentTestAfterIntermediate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/TalentTestIntermediateHeadLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="1dp"
+            android:tooltipText="For School Student">
+
+            <TextView
+                android:id="@+id/TalentTestIntermediateHeaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Level Competetive Examination"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:paddingTop="6dp"
+                android:background="#C90707"
+                android:paddingBottom="3dp"
+                android:textAlignment="center"
+                android:textSize="28sp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginVertical="5dp"
+            android:outlineSpotShadowColor="#6a737c"/>
+        <ListView
+            android:id="@+id/telentintermediateListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

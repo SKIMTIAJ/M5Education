@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ActivityBackgroundtrythird"
+    tools:context=".Activities.IIITActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/IIIT_Page_CaptionMainid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="IIIT Study"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/IIIT_Page_MainTextid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/TitleColor"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:text="competetive Examp and Gov. Job bellow"
+                android:ellipsize="end"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/IIIT_Page_EligiblityHeadid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#B80850"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Eligiblity :"
+                    android:ellipsize="end"
+                    android:padding="8dp"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/IIIT_Page_Eligiblitytextid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:text="competetive Examp and Gov. Job bellow"
+                    android:ellipsize="end"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/IIIT_Page_AnnualFees_Headid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#B80850"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Annual Fees :"
+                    android:ellipsize="end"
+                    android:padding="8dp"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/IIIT_Page_AnnualFees_textid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:text="competetive Examp and Gov. Job bellow"
+                    android:ellipsize="end"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/IIIT_Page_Selection_Headid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#B80850"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Selection Procedure :"
+                    android:ellipsize="end"
+                    android:padding="8dp"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/IIIT_Page_Selection_textid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:text="competetive Examp and Gov. Job bellow"
+                    android:ellipsize="end"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/IIIT_Page_CollegeList_Headid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#B80850"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="College List :"
+                    android:ellipsize="end"
+                    android:padding="8dp"
+                    android:layout_margin="10dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

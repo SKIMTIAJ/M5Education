@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#F05A19</color>
+    <color name="ChooseQualifition">#115FD1</color>
+    <color name="TitleColor">#B80850</color>
+    <color name="ActivityBackground">#469689</color>
+    <color name="ActivityBackgroundtrysecond">#8691AFDB</color>
+    <color name="ActivityBackgroundtrythird">#fff</color>
+    <color name="MedicienColor">#E5105E</color>
+    <color name="ExampListcolor">#C90707</color>
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavText">#01294b</color>
+    <color name="MarqueTextColor">#E9B807</color>
+
+    <!--40F6FAF9-->
+</resources>

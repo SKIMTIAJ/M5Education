@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".Activities.Post_Intermediate_talent_List">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/PostIntermediateExampName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:paddingLeft="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:hint=" Examination name"/>
+
+                <EditText
+                    android:id="@+id/PostIntermediateConductedBy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:textSize="20sp"
+                    android:layout_marginVertical="10dp"
+                    android:hint="Conducted by"/>
+
+                <EditText
+                    android:id="@+id/PostIntermediateInventedFor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:layout_marginVertical="10dp"
+                    android:textSize="20sp"
+                    android:hint="Application Invented for"/>
+                <EditText
+                    android:id="@+id/PostIntermediateNotificationMonth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginVertical="10dp"
+                    android:paddingLeft="30dp"
+                    android:hint=" Notification month"/>
+
+                <EditText
+                    android:id="@+id/PostIntermediateModeOfSelection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginVertical="10dp"
+                    android:paddingLeft="30dp"
+                    android:hint="Mode of selection"/>
+
+                <EditText
+                    android:id="@+id/PostIntermediateWebsite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:paddingLeft="30dp"
+                    android:layout_marginVertical="10dp"
+                    android:hint="website"/>
+
+
+            </LinearLayout>
+
+            <!-- <view
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="#000"
+                 android:layout_marginTop="10dp"
+                 android:layout_marginBottom="10dp"/>
+         -->
+            <Button
+                android:id="@+id/PostIntermediateSubmitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginVertical="100dp"
+                android:background="@drawable/buttonf"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

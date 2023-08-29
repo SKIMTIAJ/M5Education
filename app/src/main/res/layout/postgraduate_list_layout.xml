@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/PostCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Post Graduate Text"
+        android:layout_gravity="start"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/TitleColor"/>
+
+    <TextView
+        android:id="@+id/PostCourseEligible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Post gradute "
+        android:layout_gravity="start"
+        android:layout_marginLeft="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Backword"
+        android:id="@+id/NewsmenuBackword"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+
+    <item android:title="Forword"
+        app:showAsAction="always"
+        android:id="@+id/NewsmenuForword"
+        android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+    <item android:title="Refresh"
+        app:showAsAction="never"
+        android:id="@+id/NewsMenuRefresh"
+        android:icon="@drawable/ic_refresh_black_24dp"/>
+
+    <item android:title="Share"
+        app:showAsAction="always"
+        android:id="@+id/NewsMenuShare"
+        android:icon="@drawable/ic_share_black_24dp"/>
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ActivityBackgroundtrythird"
+    tools:context=".Activities.PolytechnicActivity">
+
+    <LinearLayout
+        android:id="@+id/polyainLayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Ploytechnic_Main_Lay"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Ploytechnic_head_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Polytechnic"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/PloytechnicSessionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 year"
+                android:textAlignment="center"
+                android:textSize="22dp"
+                android:textStyle="italic"
+                android:textColor="@color/ChooseQualifition"/>
+
+            <TextView
+                android:id="@+id/PloytechnicEligiblityText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PloytechnicListLay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/PolytechnicListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+  <!--  <LinearLayout
+        android:layout_below="@+id/polyainLayid"
+        android:id="@+id/polyadsTextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/ActivityBackground"/>
+    </LinearLayout>-->
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/PolitecnicadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8967101046628767/6548946655">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

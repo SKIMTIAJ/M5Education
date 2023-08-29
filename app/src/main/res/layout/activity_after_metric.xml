@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ActivityBackgroundtrythird"
+    tools:context=".Activities.AfterMetric">
+
+    <ScrollView
+        android:id="@+id/Prematric_main_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/Prematric_mainLinearLauout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/Prematric_allCourseLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/After10thClass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="After 10th Class"
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-smallcaps"/>
+
+                <LinearLayout
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="50"
+                        android:id="@+id/Prematric_IntermediateText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Intermediate"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:background="@drawable/buttonf"
+                        android:padding="10dp"
+                        android:textColor="@color/TitleColor" />
+                    <TextView
+                        android:layout_weight="50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif"
+                        android:text="2 year"
+                        android:textAlignment="center"
+                        android:gravity="end" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="50"
+                        android:id="@+id/Prematric_PolytechnicText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Polytechnic"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/buttonf"
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="@color/TitleColor"/>
+                    <TextView
+                        android:layout_weight="50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif"
+                        android:text="3 year"
+                        android:textAlignment="center"
+                        android:gravity="end" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="50"
+                        android:id="@+id/Prematric_PeramedicalText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Peramedical"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/buttonf"
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="@color/TitleColor" />
+
+                    <TextView
+                        android:layout_weight="50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif"
+                        android:text="3 year"
+                        android:textAlignment="center"
+                        android:gravity="end" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="50"
+                        android:id="@+id/Prematric_IIIText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IIIT"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:background="@drawable/buttonf"
+                        android:padding="10dp"
+                        android:textColor="@color/TitleColor" />
+
+                    <TextView
+                        android:layout_weight="50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif"
+                        android:text="6 year"
+                        android:textAlignment="center"
+                        android:gravity="end" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="50"
+                        android:id="@+id/Prematric_ITIText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ITI"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/buttonf"
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="@color/TitleColor" />
+                    <TextView
+                        android:layout_weight="50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif"
+                        android:text="2 year"
+                        android:textAlignment="center"
+                        android:gravity="end" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="50"
+                        android:id="@+id/Prematric_ShortTermCoursesText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Short Courses"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/buttonf"
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="@color/TitleColor" />
+
+                    <TextView
+                        android:layout_weight="50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif"
+                        android:text="6 month/1 year"
+                        android:textAlignment="center"
+                        android:gravity="end" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="50"
+                        android:id="@+id/Prematric_OtherText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Other"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/buttonf"
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="@color/TitleColor" />
+
+                    <TextView
+                        android:layout_weight="50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif"
+                        android:text=" "
+                        android:textAlignment="center"
+                        android:gravity="end" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/Prematric_TextLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+
+                <TextView
+                    android:id="@+id/Prematric_MidleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:text="competetive Examp and Gov. Job bellow"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Prematric_ExampLay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_weight="50"
+                        android:id="@+id/Prematric_Competetive_Examination_Head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Competetive Examination"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/colorAccent"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/Prematric_Job"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Govt. Job"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Prematric_LastLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Prematrics_LastText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/ExaminationAfterMatricLinearLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/Comepetitive_examp_Caption_text1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Andhra Pradesh Residential Junior College Common Entrance Test(APRJC)"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/Comepetitive_examp_Link1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="http://www.entranceexamsindia.com/aprjc-cet-courses-offered.html"
+                            android:autoLink="web"
+                            android:clickable="true"
+                            android:textSize="18sp"
+                            android:padding="5dp"
+                            android:textStyle="italic"
+                            android:textColor="@color/ChooseQualifition"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/Comepetitive_examp_Caption_text2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Polytechnic Entreance"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/Comepetitive_examp_Link2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="https://www.careerindiainfo.in/jexpo-2019/"
+                            android:autoLink="web"
+                            android:clickable="true"
+                            android:padding="5dp"
+                            android:textSize="18sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/ChooseQualifition"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/JObAfterMatricLinearLay"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="VRA"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Military"
+                        android:padding="5dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AW(Female)"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Driving Post"
+                        android:padding="5dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/ActivityBackground"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/AfterMatricadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8967101046628767/6548946655">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

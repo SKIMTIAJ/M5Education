@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.gellery_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/study_ImageTextLinerLayout"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/gelleryImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/gelleryTextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="WayTextHead"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/TitleColor"
+                    android:textSize="24sp"
+                    android:fontFamily="sans-serif"
+                    android:overScrollMode="always"/>
+
+                <TextView
+                    android:id="@+id/gelleryTextDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="WayText"
+                    android:ellipsize="end"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif"
+                    android:overScrollMode="always"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="1"
+                        android:id="@+id/AfterMatricGelleryButtonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="After 10"
+                        android:padding="10dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/buttonf"
+                        android:textColor="@color/colorAccent"/>
+
+                    <TextView
+                        android:id="@+id/AfterMatricGelleryaddbtnid"
+                        android:layout_weight="1"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_add_circle_black_24dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/aboutMatricText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="15dp"
+                    android:maxLines="4"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/colorPrimary"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="1"
+                        android:id="@+id/AfterIntermediateGelleryButtonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="After 12"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/buttonf"
+                        android:textColor="@color/colorAccent"/>
+
+                    <TextView
+                        android:id="@+id/AfterIntermediateGelleryaddbtnid"
+                        android:layout_weight="1"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_add_circle_black_24dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/aboutIntermediateText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="15dp"
+                    android:maxLines="4"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/colorPrimary"
+                    android:visibility="gone"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_weight="1"
+                        android:id="@+id/AfterGraduationGelleryButtonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="After Graduation"
+                        android:padding="10dp"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/buttonf"
+                        android:textColor="@color/colorAccent"/>
+
+                    <TextView
+                        android:id="@+id/AfterGraduationGelleryaddbtnid"
+                        android:layout_weight="1"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_add_circle_black_24dp"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/aboutGraduateText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="15dp"
+                    android:maxLines="4"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/colorPrimary"
+                    android:visibility="visible"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gelleryTextLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="monospace"
+                    android:layout_margin="20dp"
+                    android:padding="1dp"
+                    android:text=" "/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/ActivityBackground"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/gelleryMainadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8967101046628767/6548946655">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/BAid"
+        android:title="BA" />
+    <item
+        android:id="@+id/BScid"
+        android:title="B.Sc" />
+    <item
+        android:id="@+id/BComid"
+        android:title="B.Com" />
+    <item
+        android:id="@+id/OtherDegreeid"
+        android:title="Other Degree" />
+</menu>

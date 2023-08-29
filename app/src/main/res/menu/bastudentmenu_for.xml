@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="MA" />
+    <item
+        android:id="@+id/BAmenuBEdid"
+        android:title="BEd" />
+    <item
+        android:id="@+id/BAmenuMBAid"
+        android:title="MBA" />
+    <item
+        android:id="@+id/BAmenuLLBid"
+        android:title="LLB" />
+    <item
+        android:id="@+id/BAmenuPHdid"
+        android:title="PHd" />
+    <item
+        android:id="@+id/BAmenuJobid"
+        android:title="Job" />
+</menu>

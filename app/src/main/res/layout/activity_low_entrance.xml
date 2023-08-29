@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.LowEntrance">
+
+    <ScrollView
+        android:id="@+id/AgricultureScrollid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/AgricultureEntranceHeadid"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agriculture/Hotelmanagement Entrance"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/AgricultureResearchButtonid"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indian Council of Agriculture research ICAR AIEEA-UG-PG"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonf"
+                android:textColor="@color/colorAccent"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:id="@+id/AgricultureResearchLayDataid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Purpose"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Admission in Bachalor, Master Degree Program, SRF(PGS) to pursuing PhD in Agriculture and Alied Science and universities "
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Eligiblity"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="class 12, UG , PG"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Application Mode"
+                        android:textSize="18sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Mode "
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Source"
+                        android:textSize="20sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="http://www.icar.or.in"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/ChooseQualifition"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/HotelManagementEntranceButtonid"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All India Hotel Management Entrance Exam NCHMCT JEE "
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonf"
+                android:textColor="@color/colorAccent"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:id="@+id/HotelManagementEntranceLayDataid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Purpose"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Admission in BSc, Hospitality and Hotel Administration "
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Eligiblity"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="class 12"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Application Mode"
+                        android:textSize="18sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Mode "
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Source"
+                        android:textSize="20sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="http://www.nchmct.org/"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/ChooseQualifition"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ScrollView
+        android:id="@+id/LawEntranceScrollid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/LawEntranceHeadid"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LAW Entrance "
+                android:layout_margin="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/CommonLawEntranceButtonid"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Common Law Admission Test"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonf"
+                android:textColor="@color/colorAccent"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:id="@+id/CommonLawEntranceLayDataid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Purpose"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Admission in BA.LLB(Hons),B.Com(Hons),BBA,LLB(Hons)"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Eligiblity"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="class 12 Pass"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Application Mode"
+                        android:textSize="18sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Mode / By Post"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Source"
+                        android:textSize="20sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="http://www.clat.ac.in"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/ChooseQualifition"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:padding="10dp"
+                android:id="@+id/LawSchoolButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Law School Admission Test LSAT India"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonf"
+                android:textColor="@color/colorAccent"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:id="@+id/LawSchoolLayDataid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Purpose"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Admission in BA.LLB(Hons),B.Com(Hons),BBA,LLB(Hons)  "
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Eligiblity"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="class 12 Pass, Graduate"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Application Mode"
+                        android:textSize="18sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Mode"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Source"
+                        android:textSize="20sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="http://www.pearsonvueindia.com/lsatindia/"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/ChooseQualifition"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/ALLETEntranceButtonid"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All India Law Entrance Test(AILET)"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonf"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:id="@+id/ALLETEntranceLayDataid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Purpose"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Admission in BA,LLB,LLM,PhD"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Eligiblity"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="class 12 Pass,LLB,LLM"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Application Mode"
+                        android:textSize="18sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Mode / By Post"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Source"
+                        android:textSize="20sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="http://www.nludelhi.ac.in"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/ChooseQualifition"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/LETEntranceButtonid"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lioyt Entrance Test(LET)"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonf"
+                android:textColor="@color/colorAccent"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:id="@+id/LETEntranceLayDataid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Purpose"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Admission in BA,LLB-5year Integrated Course"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Eligiblity"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="class 12 Pass"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Application Mode"
+                        android:textSize="18sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textColor="@color/TitleColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Online Mode / By Post"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:background="#000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Source"
+                        android:textSize="20sp"
+                        android:layout_margin="10dp"
+                        android:padding="8dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/TitleColor"/>
+
+                    <TextView
+                        android:paddingVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="http://www.lloydlawcollege.com"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="italic"
+                        android:textColor="@color/ChooseQualifition"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

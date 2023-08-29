@@ -1,0 +1,824 @@
+<resources>
+
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Language is not supported"</string>
+
+
+    <!-- .......................................... Above for Ocr ..................................................... -->
+
+    <string name="app_name">M5education</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fabLink_string">Page Link</string>
+    <string name="fabscann_string">Image Scann</string>
+
+    <string name="title_activity_after_intermediate">After Intermediate</string>
+    <string name="title_activity_after_Matric">After Matric</string>
+    <string name="title_activity_after_Graduate">After Graduate</string>
+    <string name="title_activity_Study_Gellery">Gellery</string>
+    <string name="title_activity_College">College</string>
+
+    <string name="Eligible_For_Eng_4thyear_text">Only Eligible those Science student Who had MPC (Mathametics, Physics, Chemistry) in Intermediate.</string>
+    <string name="Eligible_For_Medical_4thyear_text">Only Eligible those Science student Who had BiPC (Biology, Physics, Chemistry)in Intermediate.</string>
+    <string name="Eligible_For_Degree_3thyear_text">Only Eligible those student Who had Passed in Intermediate.</string>
+    <string name="ExampList_and_Type_For_Eng_4thyear_text"> Engineering After 12, Examination List And Type Of Engineering is Given Bellow
+    You could Go for Your Desired Course </string>
+
+
+    <string name="CPT_About_string">The CPT or Common Proficiency Test was the first level of Chartered Accountancy examinations in India.</string>
+    <string name="CPT_About_Aplication_String">
+
+
+    </string>
+    <string name="CPT_About_Eligiblity_String">
+
+        A person can register for CPT after completing Grade 10 and take the exam after completing High School (Grade 12)
+        and complete graduation for commerce.
+
+    </string>
+    <string name="CPT_About_TestMode_String">
+
+        It is an objective type examination and consists of 200 multiple choice questions. CPT covers four basic subjects divided into two sections viz.
+
+        1.Accounting (60 Marks) + Mercantile Laws (40 Marks)
+
+        2.Economics (50 Marks) + Quantitative Aptitude (50 Marks)
+
+        Every incorrect answer on the CPT exam carries a 0.25 negative mark. A candidate is required to secure a minimum
+        of 30 per cent marks in each Section and a minimum of 50 per cent marks in aggregate, in all the four Sections
+        to pass the Common Proficiency Test.
+
+    </string>
+    <string name="CPT_About_SourceMode_String">  </string>
+
+
+    <string name="Eligible_For_Other_Activity_text">You Can Select Any Option From the List
+        And Open Several List By Selecting Any Button Above.
+    </string>
+
+    <string name="Intermediate_Airts_FirstLanguage">
+
+        English,
+        Bengali or Hindi or Nepali or Urdu or Santhali or
+        Odia or Telegu or Gujrati or Punjabi
+
+    </string>
+
+    <string name="Intermediate_Airts_SecondLanguage">
+
+        Bengali or Hindi or Alternative English or Nepali
+        English
+
+    </string>
+
+
+    <string name="Intermediate_Science_Combination_guide_text">
+
+        Students have to select three Compulsory Elective Subjects and
+        One Additional Elective subject from any one of the following Sets of subjects;
+        for special Engineering you have to choose Mathametics, Physics, Chemistry, as main subject.
+        and For Medical you have to Choose Biology, Physics, Chemistry , as main subject
+        i.e the choice must be confined to any one of the following Sets of subjects.
+
+    </string>
+
+
+    <string name="IntermediateScienceSetOneText">
+
+       Mathametics , Physics, chemistry, Biology,
+
+        any Subject of them canbe optional.
+
+    </string>
+
+
+    <string name="Intermediate_Airts_Combination_guide_text">
+
+        Students have to select three Compulsory Elective Subjects and
+        One Additional Elective subject from any one of the following Sets of subjects;
+        i.e the choice must be confined to any one of the following Sets of subjects.
+
+    </string>
+
+    <string name="IntermediateAirtsSetOneText">
+
+        Physics or Nutrition, Chemistry or Economics,
+
+        Mathematics or Psychology or Anthropology or Agronomy
+        Biological-Science,
+
+        Statistics or Geography,
+
+        Computer Science or Computer Application or Environment Studies
+
+    </string>
+
+    <string name="IntermediateAirtsSetTwoText">
+
+        Accountancy Business Studies
+        Commercial Law and Preliminaries of Auditing
+        Costing and Taxation
+        Economics
+        Computer Application or Environment Studies or Health And Physical Education Mathematics
+
+    </string>
+
+    <string name="IntermediateAirtsSetThreeText">
+
+        Political Science
+        Education or Nutrition
+        Journalism And Mass Communication or Economics or Sanskrit or Persian or Arabic Philosophy or Sociology
+        History or Anthropology or Psychology or Mathematics or Agronomy Geography or Home Management and Family Resource Management
+        Music or Visual Arts or Performing Arts or Health and Physical Education or Environment Studies or Computer Application
+
+
+    </string>
+
+
+    <string name="afterMatric_meddleText">
+
+        After Matric Examination completion You could go for Government Job Or you may Choose Some
+        Competetive Examination For further Study. but there may be some criteria for that you could
+        vist their website give bellow.
+
+    </string>
+
+
+    <string name="IIIT_page_main_text">
+
+
+        IIIT college which offers Engineering Graduation with 10+2 and 4 years total 6 years
+        B.Tech degree after 10th class in Andhra pradesh and Telangana states.
+
+        The students are selected on basis on their SSC exams performance.
+        1st priority is given to the students who have got above 9.5 points in their SSC marks.
+        The selection is also based on Category wise and Mandalam wise.
+
+        you will surely score high in your exams.now let me get into details so that you understand it better .
+
+    </string>
+
+    <string name="IIIT_page_eligiblity_text">
+
+        Candidates should have passed SSC (10th class) or any other equivalent examination
+        recognized by the Governments of Andhra Pradeshb) Candidates should not have completed
+        minimum 18 yearsc) International students shall be of Indian Nationality / Persons of
+        Indian Origin (PIO)/Overseas Citizen of India (OCI) Card Holders.
+
+    </string>
+
+    <string name="IIIT_page_annualFees_text">
+
+       a) The tuition fee for the candidates who studied in Schools situated in Andhra Pradesh
+        and Telangana states is Rs.36,000/- per annum for PUC I and II, Rs. 40,000/- for Engineering.
+
+       b) Students who are eligible for tuition fee reimbursement as per the guidelines issued by
+        the respective State Governments need not pay the tuition fee (Students whose parental
+        annual income is below Rs.1.0 Lakh for non SC/ST category and below Rs.2.0Lakh for SC/ST
+        category and who fulfill the other conditions as per the latest Govt.Rules are eligible for
+        fee reimbursement).
+
+       c) Every student has to pay a registration fee of Rs.1,000/- (Rs.500/- for SC/ST candidates)
+        and a refundable caution deposit of Rs.2,000 (by all), that is a total of Rs.3,000/- (Rs 2,500/-
+        in case of SC/ST candidates) at the time of admission.
+
+    </string>
+
+
+    <string name="IIIT_page_selection_text">
+
+        Admissions will be based on merit in the 10th class Grade Point Average (GPA) and Grade
+        obtained in each subject, and by following the statutory reservations of the state.
+
+        so just study hard and study smart else after 2 years you would be asking how to get
+        into IIT after 12th .
+
+    </string>
+
+    <string name="About_School">
+        After 10 Examp Choose What should i do the next. this is little bit confusion that every
+        people may suffer, about career don\'t be frustrated, make your self confident and choose what will
+        be your next destination, it all depend on your interaste, but if you choos Study as your career
+        this another oppertuity to be some one, and our app will guide you to the right way, and you can make
+        your AIM from childhood, this app let You show the right and shortes way to achieve your goal,
+        click on Above Button and select yor AIM, and be in touch to get Notified about upcomming oppertunity
+
+        You could choose Intermediate After Matric, Or You are a briliant student you could go for Pplytechnic,
+        Peramedical, IIIT, ITI, and Any Short Term Course, etc...
+        and you Could search for Gov. Job also Like Millitary Job,
+
+    </string>
+
+    <string name="About_College">
+
+        After 12 Examp Choose What should i do the next. this is little bit confusion that every
+        people may suffer, about career don\'t be frustrated, make your self confident and choose what will
+        be your next destination, it all depend on your interaste, but if you choos Study as your career
+        this another oppertuity to be some one, and our app will guide you to the right way, and you can make
+        your AIM from childhood, this app let You show the right and shortes way to achieve your goal,
+        click on Above Button and select yor AIM, and be in touch to get Notified about upcomming oppertunity
+
+        You could choose Intermediate After Matric, Or You are a briliant student you could go for Medical,
+        Engineering, Degree, NDA, and Teaching, and many Tipe of degree Course etc...
+        ther are many job also After 12 exam at public sector or gov Sector. later On this app Will Guid all
+        of Please Keep in Touch.
+
+    </string>
+    <string name="About_Scholarship">
+
+         After Graduation Examp Choose What should i do the next. this is little bit confusion that every
+        people may suffer, about career don\'t be frustrated, make your self confident and choose what will
+        be your next destination, it all depend on your interaste, but if you choos Study as your career
+        this another oppertuity to be some one, and our app will guide you to the right way, and you can make
+        your AIM from childhood, this app let You show the right and shortes way to achieve your goal,
+        click on Above Button and select yor AIM, and be in touch to get Notified about upcomming oppertunity
+
+        Now you Guys has better kowladge what to do the next, although This app Will Guide You to the right Way
+        but surely, upcomming Version Will Provide all of you a good Experience, and Make you feel Better Knowladge
+
+        You could choose Intermediate After Matric, Or You are a briliant student you could go for M.Tech,
+        MBA, MD, MS, and MED,PHd, and many Tipe of degree Course etc...
+        ther are many job also After 12 exam at public sector or gov Sector. later On this app Will Guid all
+        of Please Keep in Touch.
+
+
+    </string>
+
+    <string name="Inermediate_after_metric_middle_text">
+
+        If you want to Know about Any thing in this page, Then Click on the Above Button,
+        And go to th bellow of this page and ther you could find your desired result.
+
+    </string>
+
+    <string-array name="RatingClgArrayString">
+        <item> Best  </item>
+        <item> Medium  </item>
+        <item> Worst  </item>
+    </string-array>
+
+    <string-array name="WayidString_array">
+        <item>Study</item>
+        <item>Airt</item>
+        <item>Acting</item>
+        <item>Sports</item>
+    </string-array>
+
+    <string-array name="SchoolImgString_array">
+        <item>Hide</item>
+        <item>Show</item>
+    </string-array>
+
+
+    <string-array name="medicalListView_for">
+
+        <item>  MBBS Allopathic</item>
+        <item>  BUMS Unani</item>
+        <item>  BHMS Homeopathy</item>
+        <item>  BAMS AyurVedas</item>
+        <item>  BNYS Naturopathy</item>
+        <item> Ag.BSc-Agricultural</item>
+        <item> BDS Dental</item>
+        <item>  BVSc-Veterinary</item>
+        <item> BPT-Physiotherapy</item>
+
+
+    </string-array>
+
+    <string-array name="healthListView_for">
+
+        <item>  B.Pharma</item>
+        <item> BSc.Nursing</item>
+        <item>  BOT-Occupational Therapy</item>
+        <item>  BSc-Anesthesia Tec</item>
+        <item>  BSc-Cardiac Tec</item>
+        <item> BSc-Medical Lab Tech</item>
+        <item> BSc-Radio Therapy Tech</item>
+        <item>  BSc-Clinical Optometary</item>
+        <item> BSc-Nuclear Medicine</item>
+        <item> BSc-Operation Theater</item>
+        <item> BSc-Physician Assistan</item>
+        <item>  BSc-Resperatory Care</item>
+        <item> BMLT-Medical Lab technology</item>
+
+
+    </string-array>
+
+    <string-array name="PeramedicalListView_for">
+
+        <item> Dialysis Technician</item>
+        <item> ECG technician</item>
+        <item>  X-Ray Technician</item>
+        <item>  Operation Theater Technician</item>
+
+    </string-array>
+
+    <string-array name="EngineeringView_for">
+
+        <item> Compter Science and Engineering (CSE)</item>
+        <item> Information Technology (IT)</item>
+        <item> Electronics and Communication Engineering (ECE)</item>
+        <item> Electrical And Electronic Engineering</item>
+        <item> Civil Engineering</item>
+        <item> Mechanical Engineering</item>
+        <item> Chemical Engineering</item>
+        <item> Aeronautical Engineering</item>
+        <item> Aerospace Engineering</item>
+        <item> Agriculture Engineering</item>
+        <item> Automobile Engineering</item>
+        <item> Bio-medical Engineering</item>
+        <item> Bio-Technology Engineering</item>
+        <item> Ceramic Engineering</item>
+        <item> Industrial Engineering</item>
+        <item> Environmental Engineering</item>
+        <item> marine Engineering</item>
+        <item> Mining Engineering</item>
+        <item> Silk and Textile Engineering</item>
+
+
+    </string-array>
+
+    <string-array name="BAListView_for">
+
+        <item>  BA-HEP</item>
+        <item> BA-HTP</item>
+        <item>  BA-Linguistics</item>
+        <item>  BA-Economicis</item>
+        <item>  BA-Phychology</item>
+        <item> BA-Fine arts</item>
+        <item> BA-Political Sci.</item>
+        <item>  BA-Sociology</item>
+        <item> BA-Library Sci</item>
+
+    </string-array>
+
+    <string-array name="BScListView_for">
+
+        <item>  BSc-MPC</item>
+        <item> BSc-MEC</item>
+        <item>  BSc-Applied Math</item>
+        <item>  BSc-BZC/CBZ</item>
+        <item>  BSc-CPZ</item>
+        <item> BSc-Horticulture</item>
+        <item> BSc-Computer Science</item>
+        <item>  BSc-Home Science</item>
+        <item> BSc-Bio-Chemistry</item>
+        <item> BSc-Micro bio</item>
+        <item> BSc-Bio.Tec.</item>
+        <item>  BSc-Anthrop..</item>
+        <item> BSc-Diary Sci.</item>
+
+
+    </string-array>
+
+    <string-array name="BComListView_for">
+
+        <item>  B.Com-Regular</item>
+        <item> BCom-Computer</item>
+        <item> BCom-Bank Mana</item>
+        <item>  BCom-Tax Proce.</item>
+
+
+    </string-array>
+
+
+    <string-array name="OtherDListView_for">
+
+        <item> LLB</item>
+        <item> BBA(Bachalor in Business Admin)</item>
+        <item> BCA(Bachalor in computer Application)</item>
+        <item>  BBM(Bachalor in Business Management)</item>
+        <item> BAF(Bachalor in Account and finance)</item>
+        <item> BFM(Bachalor in Finance Management)</item>
+        <item>  BMS(Bachalor in Management Student)</item>
+
+
+    </string-array>
+
+    <string-array name="DualDListView_for">
+
+        <item>  BA + Bed</item>
+        <item> BSc + Bed</item>
+        <item>  BA + LLB</item>
+        <item>  BCom + LLB</item>
+        <item> BBM + LLB</item>
+        <item> BBA + LLB</item>
+
+    </string-array>
+
+
+    <string-array name="Aftre_intermediate_Other_mainlist_for">
+
+        <item> Foreign Languages </item>
+        <item> Fire Sefety </item>
+        <item> journalism</item>
+        <item> Home Science</item>
+        <item> Tourism</item>
+        <item> Hotel Management</item>
+        <item> Rural DevolopMent</item>
+
+    </string-array>
+
+
+    <string-array name="Aftre_intermediate_Other_Designing_for">
+
+        <item> Fashion </item>
+        <item> Interior </item>
+        <item> Jewelry</item>
+
+    </string-array>
+
+    <string-array name="Aftre_intermediate_Other_Film_for">
+
+        <item> Diraction </item>
+        <item> Screen Writing </item>
+        <item> Cinematography</item>
+        <item> Sound Designee</item>
+        <item> Editing</item>
+        <item> Action</item>
+
+    </string-array>
+
+    <string-array name="Aftre_intermediate_Other_Management_for">
+
+        <item> Finance Management </item>
+        <item>Even Management</item>
+        <item> Hotel Management</item>
+
+    </string-array>
+
+    <string-array name="PolytechnicListArray_for">
+
+        <item> Mechanical  </item>
+        <item>  Computer science </item>
+        <item> civil  </item>
+        <item>  Electrical and electronics engineering </item>
+        <item>  Information technology </item>
+        <item> Automobile Engineering  </item>
+        <item>  Electronics and Communication Engineering  </item>
+        <item>  Bio - Technology </item>
+        <item>  Electrical Engineering </item>
+        <item>  Chemical Engineering</item>
+        <item>  Aeronautical Engineering</item>
+        <item>  Agriculture Engineering</item>
+        <item>  Architechtural Engineering </item>
+        <item>  Bio Medical Engineering </item>
+        <item>  Marine Technology </item>
+        <item>  Mining Technology </item>
+        <item>  Leather Technology </item>
+        <item>  Textile Technology </item>
+        <item>  Petroleum Technology </item>
+        <item>  Plastic Technology </item>
+        <item>  Rubber Technology </item>
+
+
+    </string-array>
+
+
+    <string-array name="PeramedicalListArray_for">
+
+        <item> DLMT </item>
+        <item> DHFM </item>
+        <item> DOA </item>
+        <item> DOT </item>
+        <item> Helath Inspector </item>
+        <item> Snitary Inspector </item>
+
+    </string-array>
+
+    <string-array name="ShortTermCourseListArray_for">
+
+        <item> DTP  </item>
+        <item> PGDCA </item>
+        <item> Tally </item>
+        <item> internate  </item>
+        <item> Graphics </item>
+        <item> Animation </item>
+        <item> Web Designing </item>
+        <item> cyber security </item>
+
+    </string-array>
+
+    <string-array name="ITIListStringArray">
+        <item> Fitter </item>
+        <item> Computer </item>
+        <item> Civil </item>
+        <item> Mechanical </item>
+        <item> Electrician </item>
+        <item> Plumber </item>
+        <item> Serveyor </item>
+        <item> Electrical </item>
+        <item> Machine Tools </item>
+        <item> Welder </item>
+        <item> Firemen </item>
+        <item> Cookery </item>
+        <item>  Paint Technology </item>
+
+    </string-array>
+
+    <string-array name="PostGraduateStringArray">
+
+        <item> MA Telegu </item>
+        <item> MA English </item>
+        <item> MA Hindi </item>
+        <item> MA Bengali </item>
+        <item> MA Economics </item>
+        <item> MA History </item>
+        <item> MA Sociology </item>
+        <item> MA Political Sci </item>
+        <item> MA Public Administration. </item>
+        <item> Ma Public relation. </item>
+        <item> MSc.Computers </item>
+        <item> MCom </item>
+        <item> MCA </item>
+        <item> MBA </item>
+        <item> MA Archaeology </item>
+        <item> MSc Math </item>
+        <item> MSc Chemistry </item>
+        <item> MSc Botany </item>
+        <item> MSc Zoology </item>
+        <item> MSc Physics </item>
+        <item> MSc Home Sci. </item>
+        <item> Msc Anthrop </item>
+        <item> Msc Psychology </item>
+        <item> Msc Bio-Chemis </item>
+        <item> MSc Bio-Tecno </item>
+        <item> MSc Micro biolo </item>
+        <item> MSc Virology </item>
+        <item> MLIC </item>
+        <item>  LLM </item>
+
+
+    </string-array>
+
+    <string-array name="PostGraduateEligibleStringarray">
+
+        <item> Any Degree wirh one subject Telugu  </item>
+        <item>  Any Degree wirh one subject English  </item>
+        <item>  Any Degree wirh one subject Hindi  </item>
+        <item>  Any Degree wirh one subject Bengali </item>
+        <item>  BA with Economics one of the subject </item>
+        <item>  BA with History one of the subject </item>
+        <item>  BA with Sociology one of the subject </item>
+        <item>  BA with Political Science one of the subject </item>
+        <item>  BA  </item>
+        <item>  BA </item>
+        <item>  BSc Computer/ BCom Computer/ BA Comp / BCA </item>
+        <item>  BCom/ BA with commerce one of the subject  </item>
+        <item>  BA/ BSc with Math </item>
+        <item>  Any Degree </item>
+        <item>  BA </item>
+        <item>  BSc / BA one of the subject Maths </item>
+        <item>  BSc with Chemistry </item>
+        <item>  BSc with Botany </item>
+        <item>  BSc with Zoology </item>
+        <item>  BSc with physics </item>
+        <item>  BSc with Botany + Zoology </item>
+        <item>  BSc with Botany/ BA </item>
+        <item>  Any Degree </item>
+        <item>  BSc with one subject cheistry </item>
+        <item>  BSc with one subject Bio-Technology </item>
+        <item>  BSc with Zoology </item>
+        <item>  BSc with Zoology </item>
+        <item>  BLIC </item>
+        <item>  BL/LLB </item>
+
+    </string-array>
+
+    <string-array name="CompetitiveExamStringArrayAfterMatric">
+        <item>APRJC   </item>
+        <item>  Polytechnic Entrance(Jexpo) </item>
+        <item>   </item>
+
+    </string-array>
+
+    <string-array name="TalentSchoolLevelNameStringarray">
+
+        <item> National Talent Search Examination (NTSE)  </item>
+        <item> kishor Vygnanika Proshaah Yogena (KYPY) </item>
+        <item> Dr. Homi Baba Bala vidyanic Spertha (HBBVS) </item>
+        <item> National Science of Olympiad (NSO) </item>
+        <item> National Cyber Olympiad (NCO)  </item>
+        <item> Unified Cyber Olympiad (UCO)  </item>
+        <item> National Science Talent Search Examination (NTSE) </item>
+        <item> Math Talent Search Examination (MTSE)  </item>
+        <item> International Mathematics Olympiad (IMO) </item>
+        <item> National Level Science Talent Search Examination (NLSTSE)  </item>
+        <item> National Standard Examp in Junior Science (NSEJS) </item>
+        <item> State Lavel Science Talent Search Examination (SSTSE) </item>
+        <item> international Assessment for Indian Schools (IAIS)  </item>
+        <item> international Olympiad in Science (IOS)  </item>
+        <item> Regional mathametics Olympiad (RMO)  </item>
+        <item> International Olympiad of English Language (IOEL) </item>
+        <item> National Standard Examp in Biology (NSIB) </item>
+        <item> National Standard Examp in Chemistry (NSEC)  </item>
+        <item> National Standard Examp in Astronomy (NSEA)  </item>
+        <item> National Standard examp in Physics (NSEP)  </item>
+        <item> Zonal Information Olympaid (ZIO)  </item>
+        <item> International information Olymopiad (IIO) </item>
+        <item> National Interactive Mathematics Olympiad(NIMO)  </item>
+        <item> National Bio-Technology Olympiad(NBTO)  </item>
+        <item> Indian Geography Olympiad (IGO)  </item>
+        <item> Knowledge Olympiad (KO)  </item>
+
+    </string-array>
+
+    <string-array name="TalentSchoolLevelEligiblityStringarray">
+
+        <item>  10 th class student </item>
+        <item>  Intermediate Student with (MPC/BiPC) </item>
+        <item>  6 to 9 Class Student </item>
+        <item>  1 to 12 Class Student </item>
+        <item>  1 to 12 Class Student </item>
+        <item>  8 to 12 Class Student </item>
+        <item>  1 to 12 Class Student </item>
+        <item>  3 to 9 Class Student </item>
+        <item>  1 to 12 Class Student </item>
+        <item>  1 to 12 Class Student </item>
+        <item>  1 to 10 Class Student </item>
+        <item>  4 to 10 Class Student </item>
+        <item>  3 to 12 Class Student </item>
+        <item>  1 to 12 Class Student </item>
+        <item>  Intermediate Student </item>
+        <item>  1 to 12 Class Student </item>
+        <item>  Senior Intermediate Student </item>
+        <item>  Senior Intermediate Student </item>
+        <item>  Senior Intermediate Student </item>
+        <item>  Senior Intermediate Student </item>
+        <item>  8 to 12 Class Student </item>
+        <item>  1 to 8 Class Student </item>
+        <item>  5 to 12 Class Student </item>
+        <item>  5 to 12 Class Student </item>
+        <item>  2 to 12 Class Student </item>
+        <item>  2 to 12 Class Student </item>
+
+    </string-array>
+
+
+    <string-array name="TalentSchoolLevelSyllabusStringarray">
+
+        <item> Science, Math, Social,mental abillity  </item>
+        <item>  Inter Syllabus </item>
+        <item>  CBSE/ICSE Syllabus </item>
+        <item>  CBSE/ICSE Syllabus </item>
+        <item>  CBSE/ICSE Syllabus </item>
+        <item>  Mental abillity ,Reasoning, Computer skills </item>
+        <item>  CBSE/ICSE Syllabus </item>
+        <item>  Mental abillity ,Reasoning, Math. </item>
+        <item>  CBSE/ICSE Syllabus </item>
+        <item>  CBSE/ICSE Syllabus </item>
+        <item>  CBSE/ICSE Syllabus </item>
+        <item>  SCRET Syllabus </item>
+        <item>  CBSE/SCRET/ICSE Syllabus </item>
+        <item>  CBSE/ICSE Syllabus </item>
+        <item>  CBSE Syllabus </item>
+        <item>  CBSE/ICSE Syllabus </item>
+        <item> CBSE Syllabus  </item>
+        <item> CBSE Syllabus  </item>
+        <item> CBSE Syllabus  </item>
+        <item> CBSE Syllabus  </item>
+        <item> CBSE Syllabus  </item>
+        <item> CBSE/SCRET/ICSE Syllabus  </item>
+        <item>  Math,science,Mantal abillity </item>
+        <item>  CBSE/SCRET/ICSE Syllabus </item>
+        <item> CBSE Syllabus  </item>
+        <item>  CBSE/SCRET/ICSE Syllabus </item>
+
+    </string-array>
+
+
+    <string-array name="TalentSchoolLevelWebsiteStringarray">
+
+        <item> http://www.ncert.nic.in</item>
+        <item> http://www.kypy.iisc.ernet.in</item>
+        <item> htttp://www.instrs.in  </item>
+        <item> http://www.sofworld.org  </item>
+        <item> http://www.sofworld.org </item>
+        <item> http://www.unifiedcouncil.com  </item>
+        <item> http://www.unifiedcouncil.com  </item>
+        <item> http://www.ganithasastraparishad.org  </item>
+        <item> http://www.imo_official.in  </item>
+        <item> http://www.unifiedcouncil.com   </item>
+        <item> http://www.iapt.org.in  </item>
+        <item> http://www.unifiedcouncil.com  </item>
+        <item> http://wwwmacmillaneducation.in/iais  </item>
+        <item> http://www.sofworld.org  </item>
+        <item> http://www.isical.ax.in  </item>
+        <item> http://www.school.aglasari.com  </item>
+        <item> http://iapt.org.in  </item>
+        <item> http://iapt.org.in   </item>
+        <item> http://iapt.org.in   </item>
+        <item> http://iapt.org.in   </item>
+        <item> http://www.iarcs.org.in  </item>
+        <item> http://www.iarcs.org.in  </item>
+        <item> http://eduhealfoundation.org  </item>
+        <item> http://eduhealfoundation.org  </item>
+        <item> http://www.geogeniusindia.com  </item>
+        <item> http://aisect.org  </item>
+    </string-array>
+
+
+    <string-array name="EngineeringEntranceName">
+
+        <item>  BITSAT  </item>
+        <item>  COMED-K  </item>
+        <item>  IPU-CET(B.Tech)  </item>
+        <item>  Manipal(B.Tech)  </item>
+        <item>  VITEEE  </item>
+        <item>  AMU(B.Tech) </item>
+        <item>  NDA Entrance with PCM(MPC)  </item>
+        <item>  All India Engineering Entrane Exma with PCM (MPC)  </item>
+        <item>  State level Engineering Entrance Exams(APEAMCET)  </item>
+
+    </string-array>
+
+    <string-array name="EngineeringEntranceWeb">
+
+        <item> http://www.bitsadmission.com  </item>
+        <item> http://www.comedk.org </item>
+        <item> http://www.ipu.ac.in  </item>
+        <item> http://www.admissions.manipal.edu </item>
+        <item> http://www.vit.ac.in </item>
+        <item> http://www.amucontrollerexams.com  </item>
+        <item> http://www.carrerairforce.nic.in </item>
+        <item> http://www.jeemain.nic.in  </item>
+        <item> http://www.ap.gov.in/eamcet </item>
+
+    </string-array>
+
+    <string-array name="MedicalEntranceName">
+
+        <item>  AIIMS  </item>
+        <item>  CMC-Vellore </item>
+        <item>  CMC-Ludhiana </item>
+        <item>  COMED-K </item>
+        <item>  JIPMER </item>
+        <item>  Manipal(MBBS) </item>
+
+    </string-array>
+
+    <string-array name="MedicalEntranceWeb">
+
+        <item> http://www.aiimsexams.org/ </item>
+        <item>  http://www.admissions.cmcvellore.ac.in/ </item>
+        <item>  http://www.cmcludhiana.in/ </item>
+        <item>  http://www.comedk.org/ </item>
+        <item>  http://www.jipmer.edu.org/ </item>
+        <item>  http://www.admissions.manipal.edu </item>
+
+    </string-array>
+
+    <string-array name="FashionDesignSchoolnameStringarray">
+
+        <item> Srishti School  </item>
+        <item> School of Fashion technology  </item>
+        <item>  Pearl Academy </item>
+        <item>  Symbiosis Institute Of Design </item>
+        <item>  Footwear Design and development Institute  </item>
+        <item>  Maeer\'s MIT institute of Design </item>
+        <item>  National institute of Design </item>
+        <item>  National Institute Of Fashion Design </item>
+        <item>  National Aptitude Test in Architecture </item>
+        <item>  Center for Enviromental Planing and Technology(CEPT) </item>
+
+    </string-array>
+    <string-array name="FashionDesignSchoolwebStringarray">
+
+        <item> http://www.srishti.ac.in </item>
+        <item> http://www.softpune.com  </item>
+        <item> http://www.pearlacademy.com  </item>
+        <item> http://www.sid.edu.in  </item>
+        <item> http://www.fddiindia.com  </item>
+        <item> http://www.mitid.edu.in  </item>
+        <item> http://www.nid.edu/  </item>
+        <item> http://www.nift.ac.in  </item>
+        <item> http://www.nata.in  </item>
+        <item> http://www.cept.ac.in/  </item>
+
+
+    </string-array>
+
+
+    <string name="JobAftergraduateBtech">
+
+
+    </string>
+
+
+    <string name="Entrane_name"><a href="http://wwww.google.com">EAMCET</a>, <a href="http://wwww.google.com">IIT</a> ,
+       <a href="http://wwww.google.com">AIEEE</a> , <a href="http://wwww.google.com">BITSAT</a> ,  ..etc</string>
+
+
+</resources>

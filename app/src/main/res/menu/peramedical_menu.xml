@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Radio and TV"
+        android:id="@+id/ITIRadioTVid"/>
+
+    <item android:title="Motor Vehicle"
+        android:id="@+id/ITIMotorVechile"/>
+
+    <item android:title="Diesel"
+        android:id="@+id/ITIDieselid"/>
+    <item android:title="Marine"
+        android:id="@+id/ITImarineid"/>
+</menu>

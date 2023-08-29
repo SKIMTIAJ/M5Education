@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.College">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        &lt;!&ndash;<AutoCompleteTextView
+            android:id="@+id/search_collegeBy_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionHint="select College"
+            android:completionThreshold="1"
+            android:dropDownAnchor="@id/SearchClgNameTxt"
+            android:hint=" Search By College Name"
+            android:popupBackground="@color/ActivityBackground"
+            android:visibility="visible"/>&ndash;&gt;
+
+        <TextView
+            android:id="@+id/SearchClgNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College Name"
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="10dp"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/recyclerViewforsearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+           &lt;!&ndash; <LinearLayout
+                android:visibility="visible"
+                android:id="@+id/ClgSearchScrollid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/search_collegeBy_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint=" Search By College Name"
+                        android:completionThreshold="1"
+                        android:dropDownAnchor="@id/SearchClgNameTxt"
+                        android:completionHint="select College"/>
+
+                    <TextView
+                        android:id="@+id/SearchClgNameTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="College Name"
+                        android:textSize="18sp"
+                        android:paddingBottom="16dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/search_collegeBy_Location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint=" Search By Area"
+                        android:completionThreshold="1"
+                        android:dropDownAnchor="@id/SearchClgAreaTxt"
+                        android:completionHint="select College"/>
+
+                    <TextView
+                        android:id="@+id/SearchClgAreaTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Area"
+                        android:textSize="18sp"
+                        android:paddingBottom="16dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/search_collegeBy_Affiliation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint=" Search By University"
+                        android:completionThreshold="1"
+                        android:dropDownAnchor="@id/SearchClgAreaTxt"
+                        android:completionHint="select College"/>
+
+                    <TextView
+                        android:id="@+id/SearchClgAffiliationTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Affilited University"
+                        android:textSize="18sp"
+                        android:paddingBottom="16dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="College Type"
+                        android:textSize="18sp"
+                        android:textColor="@color/TitleColor"/>
+
+                    <Spinner
+                        android:id="@+id/ClgTypeSearch_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Under"
+                        android:textSize="18sp"
+                        android:textColor="@color/TitleColor"/>
+
+                    <Spinner
+                        android:id="@+id/ClgUnderSearch_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Qality"
+                        android:textSize="18sp"
+                        android:textColor="@color/TitleColor"/>
+
+                    <Spinner
+                        android:id="@+id/ClgQualitySearch_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/ClgSreachApplyBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apply"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/ChooseQualifition"
+                    android:background="@drawable/button_for_login"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"/>
+
+
+            </LinearLayout>
+&ndash;&gt;
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>-->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"/>
+
+
+</RelativeLayout>

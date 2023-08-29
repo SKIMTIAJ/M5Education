@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#fff"
+    android:background="@color/ActivityBackgroundtrysecond"
+    tools:context=".Activities.DataUpdateFile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <!--<ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/College_List_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_input_add" />-->
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/updateCollegetxt"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:text="Update College"
+                    android:textColor="@color/colorPrimary"
+                    android:drawableTop="@drawable/ic_update_black_24dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/updateSchooltxt"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:text="Update School "
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:drawableTop="@drawable/ic_update_black_24dp"
+                    android:textSize="20sp" />
+
+
+
+            </LinearLayout>
+
+          <!--  <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+               &lt;!&ndash; <ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/School_List_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_input_add" />&ndash;&gt;
+
+
+
+
+
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+<!--
+                <ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/Way_List_Update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_input_add" />-->
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/updateWaytxt"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:text="Update Way"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:drawableTop="@drawable/ic_update_black_24dp"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/updateScholarshiptxt"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:text="Update Scholarship"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:drawableTop="@drawable/ic_update_black_24dp"
+                    android:textSize="20sp"/>
+
+
+
+            </LinearLayout>
+
+
+            <!--<LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/Scholarship_List_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_input_add"/>
+
+
+
+
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <!--<ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/Competetive_Examp_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_input_add" />-->
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/updateExamp12"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:text="Talent Examp after 12"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:drawableTop="@drawable/ic_update_black_24dp"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/updateSimpleCourse"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:text="Update Simple Courses List"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:drawableTop="@drawable/ic_update_black_24dp"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/simple_course_List_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_input_add" />
+
+
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <!--<ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/Youtube_Posting_page_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_input_add" />-->
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/UpdateYoutubeVideo"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:text="Post Youtube Video"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:drawableTop="@drawable/ic_update_black_24dp"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/UpdatePostInterMediate"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:text="Post Intermediate after Ten"
+                    android:textColor="@color/colorPrimary"
+                    android:textAlignment="center"
+                    android:drawableTop="@drawable/ic_update_black_24dp"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+          <!--  <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/AfterTen_Posting_page_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_input_add" />
+
+
+
+
+            </LinearLayout>
+-->
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "52945484543",
+    "firebase_url": "https://m5education.firebaseio.com",
+    "project_id": "m5education",
+    "storage_bucket": "m5education.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52945484543:android:16cd5fcd3049bf7e",
+        "android_client_info": {
+          "package_name": "com.imtiaj.m5education"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52945484543-bjil6maevufs5g6tb73gttogn3hap6aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imtiaj.m5education",
+            "certificate_hash": "fdb9a0068c6e7b9d1ffeaba3380db9ba72575f90"
+          }
+        },
+        {
+          "client_id": "52945484543-s33qrei28jfjfgs885q9640utaqm5n65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC_mKgrGtri4Y-P8cE8DGyGTXehK14OBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52945484543-s33qrei28jfjfgs885q9640utaqm5n65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

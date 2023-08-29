@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:title="Express"
+            android:id="@+id/groupExpressTitleid">
+            <menu>
+                <group android:checkableBehavior="single">
+
+
+                    <item
+                        android:id="@+id/OfferDrawer"
+                        android:orderInCategory="3"
+                        android:icon="@drawable/ic_stars_black_24dp"
+                        android:title="OFFER Zone"/>
+                    <item
+                        android:id="@+id/JobDrawer"
+                        android:orderInCategory="4"
+                        android:icon="@drawable/ic_accessible_black_24dp"
+                        android:title="JOB" />
+
+                    <item android:title="Setting"
+                        android:id="@+id/SettingDrawer"
+                        android:icon="@drawable/ic_settings_applications_black_24dp"
+                        android:orderInCategory="5"
+                        app:showAsAction="never"/>
+
+                    <item android:title="Logout"
+                        android:id="@+id/LogoutDrawer"
+                        android:icon="@drawable/ic_power_settings_new_black_24dp"
+                        android:orderInCategory="6"
+                        app:showAsAction="never"/>
+
+                </group>
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group>
+    <item android:title="List Information"
+        android:id="@+id/groupListTitleid">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/SchoolLavelExampid"
+                    android:orderInCategory="20"
+                    android:title="School Lavel Examp" />
+                <item
+                    android:id="@+id/HSlavelExampid"
+                    android:orderInCategory="21"
+                    android:title="HS Lavel Examp" />
+
+                <item android:title="Scholarship"
+                    android:id="@+id/menuScholarship"
+                    android:orderInCategory="17"
+                    app:showAsAction="never"/>
+
+                <item android:title="School"
+                    android:id="@+id/menuSchool"
+                    android:orderInCategory="18"
+                    app:showAsAction="never"/>
+
+                <item android:title="College"
+                    android:id="@+id/menuCollege"
+                    android:orderInCategory="19"
+                    app:showAsAction="never"/>
+
+            </group>
+        </menu>
+
+     </item>
+    </group>
+
+    <group>
+        <item android:title="Course"
+            android:id="@+id/groupCourseTitleid">
+            <menu>
+                <group android:checkableBehavior="single">
+
+
+                    <item
+                        android:id="@+id/SimpleCourseDrawer"
+                        android:orderInCategory="23"
+                        android:title="Normal Course"/>
+
+                </group>
+            </menu>
+
+        </item>
+
+    </group>
+    <!--<group>
+        <item android:title="List Information"
+            android:orderInCategory="10"/>
+    </group>
+
+            <group android:checkableBehavior="single"
+                android:orderInCategory="2">
+
+
+
+            </group>
+-->
+</menu>

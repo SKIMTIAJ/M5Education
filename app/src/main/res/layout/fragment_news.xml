@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:layout_margin="5dp"
+    tools:context=".Fragments.News">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="monospace"
+                    android:text="All India News"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/AllIndiaNewsLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/EconomicTime_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/economictimes" />
+
+                    <ImageView
+                        android:id="@+id/BusinessStandard_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/businessstandard" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/TimesOfIndia_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/timesofindia" />
+
+                    <ImageView
+                        android:id="@+id/TheHindu_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hindu" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/HindustanTime_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hindustantimes" />
+
+                    <ImageView
+                        android:id="@+id/IndianExpress_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/indianexpress" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/AsianAge_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/asianage" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="monospace"
+                    android:text="Bengla News"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/WBNewsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <!-- <TextView
+                         android:id="@+id/Newsfirst"
+                         android:layout_weight="1"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Ananda bazar"
+                         android:textStyle="bold"
+                         android:textSize="20sp"
+                         android:padding="10dp"
+                         android:layout_margin="10dp"/>
+
+                     <TextView
+                         android:id="@+id/Newswsecond"
+                         android:layout_weight="1"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Ananda bazar"
+                         android:textStyle="bold"
+                         android:textSize="20sp"
+                         android:padding="10dp"
+                         android:layout_margin="10dp"/>-->
+
+                    <ImageButton
+                        android:id="@+id/AnaddaBazar_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/anandabazar" />
+
+                    <ImageButton
+                        android:id="@+id/Bortoman_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bartamanpatrika" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/Protidin_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/sangbadpratidin" />
+
+                    <ImageButton
+                        android:id="@+id/Gonosokti_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ganashakti" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/KarmaKhestra_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/karmakshetra" />
+
+                    <ImageButton
+                        android:id="@+id/EiSomoy_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/eisamay" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/Telegraph_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/telegraphindia" />
+
+                    <ImageButton
+                        android:id="@+id/Statesman_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/statesman" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="monospace"
+                    android:text="Bangadesi News"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BangaladesiNewsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/ProthomAlo_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/prothomalo" />
+
+                    <ImageView
+                        android:id="@+id/BangladeshProtidin_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bdpratidin" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/Jugantor_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jugantor" />
+
+                    <ImageView
+                        android:id="@+id/Somokal_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/samakal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/NoyaDigonto_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/nayadiganta" />
+
+                    <ImageView
+                        android:id="@+id/AjkerPotrika_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ajkerpatrika" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/Dinkal_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/dinkal" />
+
+                    <ImageView
+                        android:id="@+id/BangladeserKhobor_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/viewborder_a"
+                        android:elevation="2dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bangladesherkhabor" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

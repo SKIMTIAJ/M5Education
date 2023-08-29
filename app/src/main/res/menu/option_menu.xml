@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Privacy Policy "
+        android:orderInCategory="20"
+        app:showAsAction="never"
+        android:id="@+id/privacysetid"/>
+
+    <item
+        android:visible="false"
+        android:id="@+id/addItem"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:orderInCategory="2"
+        android:title="add iitem"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/GoalExampid"
+        android:orderInCategory="3"
+        android:title="Goal Examp List" >
+
+        <menu>
+
+            <item
+                android:title="Engineering"
+                android:id="@+id/GoalMenuEngineering"
+                app:showAsAction="never" />
+            <item
+                android:title="Medical"
+                android:id="@+id/GoalMenuMedical"
+                app:showAsAction="never" />
+            <item
+                android:title="Law"
+                android:id="@+id/GoalMenuLaw"
+                app:showAsAction="never" />
+            <item
+                android:title="Agriculture/Hotel Management"
+                android:id="@+id/GoalMenuAgriculture"
+                app:showAsAction="never" />
+            <item
+                android:title="Defence"
+                android:id="@+id/GoalMenuDefence"
+                app:showAsAction="never" />
+
+
+        </menu>
+
+
+    </item>
+
+    <item
+        android:title="Fashion Design"
+        android:orderInCategory="4"
+        android:id="@+id/MenuFashionDesigning"
+        app:showAsAction="never" />
+
+
+</menu>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.imtiaj.m5education">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-feature android:name="android.hardware.camera" /> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"/>
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.PostHomeItem_recycler"></activity>
+
+        <receiver
+            android:name=".InternetConBrodcast"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Activities.No_InterNetConnection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Splash_actvity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Ocrsetting" />
+        <activity android:name=".Activities.OcrCaptureActivity"/>
+        <activity android:name=".Activities.DataUpdateFile" />
+        <activity android:name=".Activities.DataPostfile" />
+        <activity android:name=".Activities.FilterdeActivity" />
+        <activity android:name=".Activities.CollegeFilterActivity" />
+        <activity android:name=".Activities.ForgetPasswordActivity" />
+        <activity android:name=".Activities.ImageControl" />
+        <activity
+            android:name=".Activities.Login_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Signup_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.FashionDesign_Entrance" />
+        <activity android:name=".Activities.LowEntrance" />
+        <activity android:name=".Activities.PostAfterTen_IntermediateCourse" />
+        <activity android:name=".Activities.PostSimpleCourseActivity" />
+        <activity android:name=".Activities.Post_Intermediate_talent_List" />
+        <activity android:name=".Activities.More_Course_Activity" />
+        <activity android:name=".Activities.AfterIntermediateCompetetive" />
+        <activity android:name=".Activities.TalentTestAfterIntermediate" />
+        <activity android:name=".Activities.All_PostGraduate_Course" />
+        <activity android:name=".Activities.AfterGraduation" />
+        <activity android:name=".Activities.OtherAfterIntermediate" />
+        <activity android:name=".Activities.Degree" />
+        <activity android:name=".Activities.MadicalActivity" />
+        <activity android:name=".Activities.EngineerActivity" />
+        <activity android:name=".Activities.EngineeringEntrance" />
+        <activity android:name=".Activities.DefenceEntrance" />
+        <activity android:name=".Activities.AfterIntermediate" />
+        <activity android:name=".Activities.DetailIntermediateAbout_Combination" />
+        <activity android:name=".Activities.Intermediate_gellery" />
+        <activity android:name=".Activities.ITIActivity" />
+        <activity android:name=".Activities.ShortCourseActivity" />
+        <activity android:name=".Activities.PolytechnicActivity" />
+        <activity android:name=".Activities.PeramedicalActivity" />
+        <activity android:name=".Activities.IIITActivity" />
+        <activity android:name=".Activities.AfterMetric" />
+        <activity android:name=".Activities.gellery_activity" />
+        <activity android:name=".Activities.PostSchoolList" />
+        <activity android:name=".Activities.PostCollegeList" />
+        <activity
+            android:name=".Activities.College"
+            android:label="College" />
+        <activity android:name=".Activities.PostScholarship_list" />
+        <activity
+            android:name=".Activities.Scholarship"
+            android:label="Scholarship" />
+        <activity
+            android:name=".Activities.School"
+            android:label="School" />
+        <activity android:name=".Activities.PostYoutubeVideoActivity" />
+        <activity android:name=".Activities.postWayList" />
+        <activity
+            android:name=".Activities.Admin_Panel"
+            android:label="Admin Panel" />
+        <activity android:name=".Activities.NewsActivity" />
+        <activity android:name=".Activities.YoutubeVideoPlayfull" />
+        <activity android:name=".Activities.OfferActivity" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8967101046628767~2410514806" />
+    </application>
+
+</manifest>

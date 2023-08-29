@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.More_Course_Activity">
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Courses"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/CourseMoreBttonid"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="more"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/buttonf"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/CourseUndergraduateButtonid"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Undergrauate Course"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/buttonf"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/CourseIntegratedButtonid"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Integrated Course"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/buttonf"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/CoursePostGraduateButtonid"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PostGraduate Course"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/buttonf"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/CoursesUnderGraduateLayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UnderGraduate Courses"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            android:textColor="@color/ChooseQualifition" />
+
+        <ListView
+            android:id="@+id/CoursesListViewUnderGraduateid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/CoursesIntegratedLayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrated Course"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            android:textColor="@color/ChooseQualifition" />
+
+        <ListView
+            android:id="@+id/CoursesListViewIntegratedid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/CoursesPostGraduateLayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PostGraduated Course"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            android:textColor="@color/ChooseQualifition" />
+
+        <ListView
+            android:id="@+id/CoursesListViewPostGraduateid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/CoursesMorelayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Course"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            android:textColor="@color/ChooseQualifition" />
+
+        <ListView
+            android:id="@+id/CoursesListViewMoreid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

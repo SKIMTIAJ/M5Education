@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/viewborder_a"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="3dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="Examp :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/TelentIntermediateExampName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Examp Name"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"/>
+
+
+        </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_weight="3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Eligiblity"
+           android:justificationMode="inter_word"
+           android:paddingHorizontal="1dp"
+           android:textSize="18sp"
+           android:textStyle="italic" />
+
+       <TextView
+           android:layout_weight="1"
+           android:id="@+id/TelentIntermediateEligiblity"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Eligiblity :"
+           android:justificationMode="inter_word"
+           android:paddingLeft="2dp"
+           android:textSize="15sp"
+           android:textStyle="italic" />
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Syllabus :"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/TelentIntermediateSyllabus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Syllabus"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="18sp"
+            android:text="Website :"
+            android:padding="5dp"
+            android:textStyle="italic"
+            android:textColor="@color/ChooseQualifition"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/TelentIntermediateWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:textSize="15dp"
+            android:text="Website"
+            android:padding="5dp"
+            android:textStyle="italic"
+            android:textColor="@color/ChooseQualifition"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

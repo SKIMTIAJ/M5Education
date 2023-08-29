@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/CollegeNotificationLay">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/CollegeNotificationImgid"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_school_black_24dp" />
+
+    <LinearLayout
+        android:id="@+id/clgAdmissionTextLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/NotifyCollegeNameid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CollegeName"
+            android:textColor="#f00"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/NotifyClgAdmissionContentid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:textColor="#f00"/>
+
+        <TextView
+            android:id="@+id/NotifyClgAdmissionDateid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

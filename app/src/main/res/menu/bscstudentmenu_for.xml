@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/BSCmenuMScid"
+        android:title="MSc" />
+    <item
+        android:id="@+id/BSCmenuBEdid"
+        android:title="B.Ed" />
+    <item
+        android:id="@+id/BSCmenuLLBid"
+        android:title="LLB" />
+    <item
+        android:id="@+id/BSCmenuPHdid"
+        android:title="PH.d" />
+    <item
+        android:id="@+id/BSCmenuJobid"
+        android:title="Job" />
+</menu>

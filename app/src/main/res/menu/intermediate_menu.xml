@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Arts"
+        android:id="@+id/IntermediateArts"
+        app:showAsAction="never" >
+
+        <menu>
+
+            <item  android:title="MEC"
+                android:id="@+id/IntermediateArtsMEC"/>
+
+            <item  android:title="HEC"
+                android:id="@+id/IntermediateArtsHEC"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Commerce"
+        android:id="@+id/IntermediateCommerce"
+        app:showAsAction="never">
+
+
+        <menu>
+
+            <item  android:title="CEC"
+                android:id="@+id/IntermediateCommerceCEC"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Science"
+        android:id="@+id/IntermediateScience"
+        app:showAsAction="never">
+
+
+        <menu>
+
+            <item  android:title="MPS"
+                android:id="@+id/IntermediateScienceMPS"/>
+
+            <item  android:title="BIPS"
+                android:id="@+id/IntermediateScienceBIPS"/>
+
+            <item  android:title="Library Scienc"
+                android:id="@+id/IntermediateScienceLibrarySc"/>
+
+        </menu>
+
+    </item>
+</menu>

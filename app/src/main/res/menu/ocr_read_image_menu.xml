@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Add image"
+        app:showAsAction="always"
+        android:id="@+id/Ocr_addImage"
+        android:icon="@drawable/ic_action_ocr_image"/>
+
+    <item android:id="@+id/OcrImageSpeek"
+        android:title="Speek"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_ocr_voice_black_24dp"/>
+
+    <item android:title="Setting"
+        app:showAsAction="never"
+        android:id="@+id/Ocr_setting"/>
+
+    <item android:title="save to text File"
+        app:showAsAction="never"
+        android:id="@+id/savetoFile_id"/>
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="6dp" >
+
+    <LinearLayout
+        android:id="@+id/YoutubeWebframeParentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/video_thumbnail_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="16dp"
+            android:background="@android:color/darker_gray"
+            android:scaleType="centerCrop"
+            tools:ignore="WebViewLayout"/>
+
+        <TextView
+            android:id="@+id/video_title_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:text="this is a title"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="1000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/video_duration_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:drawableLeft="@drawable/ic_schedule_black_24dp"
+            android:drawablePadding="3dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:text="this is a title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

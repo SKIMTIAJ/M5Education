@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.Intermediate_gellery">
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Courses"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AfterTenAirtsButtonid"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Airts"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/buttonf"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/AfterTenCommerceButtonid"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commerce"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/buttonf"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AfterTenScienceButtonid"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Science"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/buttonf"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/AfterTenAirtsLayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Airts subject in HS level"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:textColor="@color/ChooseQualifition" />
+
+
+            <Button
+                android:id="@+id/AirtsCombinationbtnid"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="subject Combination"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:background="@drawable/buttonf"
+                android:textStyle="bold"
+                android:textColor="#6B0448" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/AfterTenAirtsListViewid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AfterTenCommerceLayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Commerce subject in HS level"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            android:textColor="@color/ChooseQualifition" />
+
+        <ListView
+            android:id="@+id/AfterTenCommerceListViewid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AfterTenScienceLayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Science subject in HS level"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:textColor="@color/ChooseQualifition" />
+
+            <Button
+                android:id="@+id/ScienceCombinationbtnid"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject Combination"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:background="@drawable/buttonf"
+                android:textStyle="bold"
+                android:textColor="#6B0448" />
+
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/AfterTenScienceListViewid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

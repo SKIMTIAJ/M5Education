@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ActivityBackgroundtrythird"
+    android:orientation="vertical"
+    tools:context=".Activities.AfterGraduation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/AfterBtechMainButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B.Tech/BE"
+                    android:textColor="@color/ChooseQualifition"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/buttonf"
+                    android:layout_margin="5dp" />
+
+                <LinearLayout
+                    android:id="@+id/AfterBtechBellowLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/MtechidAfterBtech"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="M.Tech"
+                        android:textSize="24sp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+                        />
+
+                    <TextView
+                        android:id="@+id/MtechTextAfterBtech"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                    <Button
+                        android:id="@+id/MBAidAfterBtech"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MBA"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+                        android:width="60dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/MBAtextAfterBtech"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                    <Button
+                        android:id="@+id/JOBidAfterBtech"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JOB"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+                        android:width="60dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/JOBtextAfterBtech"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/AfterMbbsMainButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MBBS"
+                    android:textColor="@color/ChooseQualifition"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/buttonf"
+                    android:layout_margin="5dp" />
+
+                <LinearLayout
+                    android:id="@+id/AfterMBBSBellowLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/MDidAfterMBBS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MD"
+                        android:textSize="24sp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+                        />
+
+                    <TextView
+                        android:id="@+id/MDTextAfterMBBS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                    <Button
+                        android:id="@+id/MSidAfterMBBS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MS"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/MStextAfterMBBS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                    <Button
+                        android:id="@+id/PracticeidAfterMBBS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/PracticetextAfterMBBS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/JOBidAfterMBBS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JOB"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/JOBtextAfterMBBS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/AfterCommonDegreeMainButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" BA/BSc/BCom Degree"
+                    android:textColor="@color/ChooseQualifition"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/buttonf"
+                    android:layout_margin="5dp" />
+
+                <LinearLayout
+                    android:id="@+id/AfterCommonDegreeBellowLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/BA_AfterCommonDegreeid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For BA Student"
+                        android:textSize="24sp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+                        />
+
+                    <TextView
+                        android:id="@+id/BA_AfterCommonDegreetext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                    <Button
+                        android:id="@+id/BSC_AfterCommonDegreeid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FOR BSC STUDENT"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/BSC_AfterCommonDegreetext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                    <Button
+                        android:id="@+id/BCom_AfterCommonDegreeid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FOR BCOM STUDENT"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/BCom_AfterCommonDegreetext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/LLB_AfterCommonDegreeid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FOR LLB STUDENT"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/LLB_AfterCommonDegreetext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/BCA_AfterCommonDegreeid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FOR BCA STUDENT"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/BCA_AfterCommonDegreetext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/BBA_AfterCommonDegreeid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FOR BBA/BBM Student"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/BBA_AfterCommonDegreetext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/AfterTeachingMainButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Teaching "
+                    android:textColor="@color/ChooseQualifition"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/buttonf"
+                    android:layout_margin="5dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/AfterTeachingBellowLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/BEd_AfterTeachingid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B.ed/B.PEd"
+                        android:textSize="24sp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+                        />
+
+                    <TextView
+                        android:id="@+id/BEd_AfterTeachingtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                    <Button
+                        android:id="@+id/MEd_AfterTeachingid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="M.Ed"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/MEd_AfterTeachingtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                    <Button
+                        android:id="@+id/PHd_AfterTeachingid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PHD"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/PHd_AfterTeachingtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/JOb_AfterTeachingid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JOB"
+                        android:textSize="24sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/JOb_AfterTeachingtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/AfterOtherMainButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Others "
+                    android:textColor="@color/ChooseQualifition"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/buttonf"
+                    android:layout_margin="5dp"/>
+
+
+                <LinearLayout
+                    android:id="@+id/AfterOtherBellowLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <Button
+                        android:id="@+id/PostGraduate_AfterOtherid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Post Graduation"
+                        android:textSize="24sp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf" />
+
+                    <TextView
+                        android:id="@+id/BEd_AfterOthergtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/BEd_AfterOtherJobid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JOB"
+                        android:textSize="24sp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/buttonf" />
+
+                    <TextView
+                        android:id="@+id/BEd_AfterOtherJobtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/JobAftergraduateBtech"
+                        android:maxLines="4"
+                        android:ellipsize="end"
+                        android:elegantTextHeight="true"
+                        android:textSize="18sp"
+                        android:textStyle="italic"
+                        android:padding="5dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
